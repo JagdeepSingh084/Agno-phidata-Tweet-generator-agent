@@ -1,18 +1,18 @@
-Description
+##Description
 This project is a multi-agent AI system designed to automatically generate short, trendy tweets based on the latest AI, Machine Learning, and Data Science news.
 Built using Agno (phidata) framework, it leverages Groq's Llama3-70b model, real-time search via DuckDuckGo Tool, and is hosted with FastAPI for scalability and flexibility.
 
-The system uses a modular multi-agent architecture:
+###The system uses a modular multi-agent architecture:
 
-News Agent: Fetches latest tech articles.
+####News Agent: Fetches latest tech articles.
 
-Tweet Generator Agent: Summarizes articles into viral tweets.
+####Tweet Generator Agent: Summarizes articles into viral tweets.
 
-Team Coordinator Agent: Manages workflow between fetching and tweeting.
+####Team Coordinator Agent: Manages workflow between fetching and tweeting.
 
 The project includes an interactive Agno Playground UI for easy testing and demonstration.
 
-🚀 Features
+###🚀 Features
 Real-time AI/ML/Data Science news fetching
 
 Crisp and trendy tweet generation (with catchy titles, hashtags, links)
@@ -23,7 +23,7 @@ FastAPI backend with CORS enabled
 
 Interactive Playground for easy experimentation
 
-🛠 Tech Stack
+###🛠 Tech Stack
 Framework: Agno (phidata)
 
 Language: Python
@@ -36,7 +36,7 @@ Server: FastAPI with CORS Middleware
 
 Frontend: Agno Playground App
 
-📜 Installation
+###📜 Installation
 bash
 Copy
 Edit
@@ -74,7 +74,7 @@ Adds a title, main point, source link, publish date, and relevant hashtags.
 
 Keeps the tweet under 200 characters.
 
-Team Coordinator Agent:
+###Team Coordinator Agent:
 
 Orchestrates the process between fetching and tweeting.
 
