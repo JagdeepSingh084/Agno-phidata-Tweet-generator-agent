@@ -1,0 +1,14 @@
+grok
+phidata
+dotenv
+yfinance
+duckduckgo-search
+fastapi
+uvicorn
+groq
+phidata
+openai
+datetime
+phi
+fastapi
+python-multipart
